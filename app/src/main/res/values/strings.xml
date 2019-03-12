@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Vibrate Demo</string>
+    <string name="Vibrate_helper">(Vibration time in miliseconds)</string>
+    <string name="vibrate" translatable="false">Vibrate</string>
+    <string name="_500" translatable="false">500</string>
+    <string name="miliseconds">miliseconds</string>
+    <string name="custom_intent" translatable="false">com.sysdevmobile.vibratedemo.VIBRATE</string>
+</resources>
