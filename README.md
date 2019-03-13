@@ -1,4 +1,5 @@
 # Vibrate Demo 
+[![Build Status](https://travis-ci.com/sierleunam/VibrateDemo.svg?branch=master)](https://travis-ci.com/sierleunam/VibrateDemo)
 Sample app to vibrate when clicked on the inteface button or by sending intents to it.
 
 ## Operation mode
