@@ -60,7 +60,7 @@ class MainActivity : AppCompatActivity() {
             sendBroadcast(intent)
         }
 
-        et.setOnKeyListener(View.OnKeyListener { view, i, keyEvent ->
+        et.setOnKeyListener(View.OnKeyListener { _, i, keyEvent ->
             et.setImeActionLabel("Go", KeyEvent.KEYCODE_ENTER)
             if (keyEvent.action == KeyEvent.ACTION_DOWN && i == KeyEvent.KEYCODE_ENTER) {
                 btnVibrate.performClick()
@@ -76,7 +76,7 @@ class MainActivity : AppCompatActivity() {
 
     companion object {
 
-        private val TAG = "MainActivity"
+        private const val TAG = "MainActivity"
     }
 
 }

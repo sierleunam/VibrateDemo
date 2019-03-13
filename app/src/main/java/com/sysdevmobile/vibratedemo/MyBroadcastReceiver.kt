@@ -32,6 +32,6 @@ class MyBroadcastReceiver : BroadcastReceiver() {
 
     companion object {
 
-        private val TAG = "MyBroadcastReceiver"
+        private const val TAG = "MyBroadcastReceiver"
     }
 }
