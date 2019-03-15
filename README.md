@@ -16,6 +16,6 @@ send an intent with:
 	
 and optionally add a Long extra named
  	
-		"time" 
+	"time" 
 		
 with the time in miliseconds.
